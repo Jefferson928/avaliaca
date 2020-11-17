@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Icones</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <center>
+  <div class="jumbotron">
+    <h1><center>Ícones</center></h1>
+  </div>
+  <div class="row">
+    <p>Sinal Wi-fi
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-signal"></span> sinal
+        </button>
+
+
+
+    <p>Estudar para a prova
+        <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-ok"></span>OK!!
+        </button>
+      </p>
+    <p>Não esqueça de deixar o celular desligado
+        <a href="#" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-volume-off"></span> Volume Off
+        </a>
+    </p> 
+</div>
+  
+  <div class="row">
+    <h2>Alertas Animados</h2>
+     <div class="alert alert-success" role="alert">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <!--- x para fechar o alerta -->
+      <strong>Parabéns!!</strong> sua prova foi concluida com sucesso
+    </div>
+  <div class="alert alert-danger alert-dismissible fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Cuidado!!</strong> não divida sua prova com niguém.
+  </div>
+  </div>
+  </center>
+</div>
+
+</body>
+</html>
