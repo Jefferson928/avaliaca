@@ -1,217 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Currículo no BOOSTRAP</title>
+	<meta charset="utf-8"/>
+	<title>Estilo Musica</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
+	</head>
+	<style type="text/css">
+		body{
+			background-color: black;
+			width: 95%;
+			margin: auto;
+		}
+		main{
+			background: white;
+			border-radius: 20px 40px;
+		}
+		h3{
+			color: white;
+		}
+	</style>
 <body>
-	<div class="container-fluid">
-		<div class="jumbotron">
-			<img src="img/perfil.jpg" style="width: 20%">
-			<h2>Jefferson Soares Lima</h2>
-			<p>Estudante na área de Analise e desenvolvimento de sistemas</p>
-		</div>
-		<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-		<div class="row">
-				<div class="col-sm-2">
-					<h3>Dados Pessoais</h3>
-				</div>
-				<div class="col-sm-9" >
-					<table class="table table-striped">
-					    <thead>
-					      <tr>
-					        <th>Data de nascimento</th>
-					        <th>Endereço</th>
-					        <th>Email</th>
-					        <th>Telefone</th>
-					      </tr>
-					    </thead>
-					    <tbody>
-					      <tr>
-					        <td>27/12/1999</td>
-					        <td>Rua Guilherme Rizzi, 245 - Londrina - Paraná.</td>
-					        <td>jefferson@example.com</td>
-					        <td>(43) 3338-0467</td>
-					      </tr>
-					    </tbody>
-					</table>
-				</div>
-			</div>
-			<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+	<center>
+		<main>
+			<div class="jumbotron text-center">
 			<div class="row">
-				<div class="col-sm-2">
-					<h3>Escolaridade</h3>
-				</div>
-				<div class="col-sm-9" >
-					<table class="table table-striped">
-					    <thead>
-					      <tr>
-					        <th>Previsão de Término</th>
-					        <th>Ensino Superior</th>
-					        <th>Instituição</th>
-					      </tr>
-					    </thead>
-					    <tbody>
-					      <tr>
-					        <td>2023</td>
-					        <td>Análise e desenvolvimento de sistemas</td>
-					        <td>Unicesumar</td>
-					      </tr>
-					    </tbody>
-					</table>
-				</div>
+				<p>Qual o seu nome e Estilo musical?</p>
+				<input id="name" type="char" placeholder=""oninput="convertName(this.value)"
+					onchange="convertName(this.value)">
+					<script type="text/javascript">
+						function convertName(x){ 
+						document.getElementById('out').innerHTML = x;
+					}
+					</script>
+					<p>----------------------------</p>
+					<p>Bem vindo!!!</p><p><span id="out"></span></p>
+					<p>----------------------------</p>
+					<p><a href="#sobre">Sobre Mim</a></p>
+		     <div class="alert alert-success" role="alert">
+		      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <!--- x para fechar o alerta -->
+		      <strong>ISSO VOCÊ MESMO!!</strong> você está na melhor pág WEB de todas <span class="glyphicon glyphicon-thumbs-up">
+    		</div>
+			<h1><span class="glyphicon glyphicon-music"></span> ELETRONICA <span class="glyphicon glyphicon-music"></span></h1>
 			</div>
-			<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-			<div class="row">
-				<div class="col-sm-2">
-					<h3>Experiência Profissional</h3>
-				</div>
-				<div class="col-sm-9" >
-					<table class="table table-striped">
-					    <thead>
-					      <tr>
-					        <th>•	Lojas Colombo - 04/04/2018 a 10/04/2019</th>
-					      </tr>
-					    </thead>
-					    <tbody>
-					      <tr>
-					        <td>Cargo: Menor aprendiz – Administração
-							Principais atividades: Recebimento de produtos, organização de estoque, Atendimento ao cliente e vendas.
-							</td>
-					      </tr>
-					    </tbody>
-					</table>
-				</div>
+			<h2>A música eletrônica é gerada através do uso de recursos digitais e tecnológicos, como sintetizadores – equipamentos que têm como fim elaborar sons artificialmente -, gravadores digitalizados, computadores ou programas de composição.</h2>
+			<h2>Um dos meus DJs brasileiros preferidos é o Alok, muito conhecido em território nacional</h2>
+			<img src="img/Capturar1.jpg">
+			<h2>Uma de suas musicas mais conhecidas é a FUEGO</h2>
+			<div class="container">
+    			<img src="img/Capturar2.jpg" width="768" height="511" />
 			</div>
-			<div class="row">
-				<div class="col-sm-2">
-				</div>
-				<div class="col-sm-9" >
-					<table class="table table-striped">
-					    <thead>
-					      <tr>
-					        <th>•	Viação Garcia - 17/06/2019 a 26/07/2019</th>
-					      </tr>
-					    </thead>
-					    <tbody>
-					      <tr>
-					        <td>Cargo: Menor aprendiz
-							1 mês de curso na área administrativa.
-							</td>
-					      </tr>
-					    </tbody>
-					</table>
-				</div>
+			<div>
+				<p><a href="https://www.youtube.com/watch?v=VQ2EyU75p2o"target="_blank"> <h3><span class="glyphicon glyphicon-headphones"></span>LINK PARA MÚSICA<span class="glyphicon glyphicon-headphones"></span></h3></a></a></p>
 			</div>
-			<div class="row">
-				<div class="col-sm-2">
-				</div>
-				<div class="col-sm-9" >
-					<table class="table table-striped">
-					    <thead>
-					      <tr>
-					        <th>•	Multquimica Produtos Quimicos LTDA – 27/07/2019 Atual </th>
-					      </tr>
-					    </thead>
-					    <tbody>
-					      <tr>
-					        <td>Cargo: Auxiliar de Escritório
-							Principais atividades: Atuar na área operacional do comercial, Emissão de relatórios, Atendimento ao SAC, Digitação e conferencia de pedidos, Ajuste de tabelas de preços, Faturamento, Cadastro de novos clientes, Suporte e atendimento ao cliente, CRM do telemarketing.
-							</td>
-					      </tr>
-					    </tbody>
-					</table>
-				</div>
+			<p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+			<h2>Entrando no território <strong>INTERNACIONAL</strong> o Dj Marshmello  vem se destacando muito, com musicas boas e videos bem produzidos.</h2>
+			<div class="container">
+    			<img src="img/Capturar3.jpg" width="768" height="511" />
 			</div>
-			<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-			<div class="row">
-				<div class="col-sm-2">
-					<h3>Qualificações</h3>
-				</div>
-				<div class="col-sm-9" >
-					<table class="table table-striped">
-					    <thead>
-					      <tr>
-					        <th>•	Básico de Computação – Cedaspy – 8h/a – 2011</th>
-					      </tr>
-					    </thead>
-					</table>
-				</div>
+			<h2>Uma de suas musicas mais conhecidas é a Alone</h2>
+			<div class="container">
+    			<img src="img/Capturar4.jpg" width="768" height="511" />
 			</div>
-			<div class="row">
-				<div class="col-sm-2">
-				</div>
-				<div class="col-sm-9" >
-					<table class="table table-striped">
-					    <thead>
-					      <tr>
-					        <th>•	Profissional em Montagem e Manutenção de Computadores / (NOVA - 47 horas, conclusão 2015).</th>
-					      </tr>
-					    </thead>
-					</table>
-				</div>
+			<div>
+				<p><a href="https://www.youtube.com/watch?v=ALZHF5UqnU4"target="_blank"><h3><span class="glyphicon">&#xe038;</span>LINK PARA MÚSICA<span class="glyphicon">&#xe038;</span>	</h3></a></a></p>
 			</div>
-			<div class="row">
-				<div class="col-sm-2">
-				</div>
-				<div class="col-sm-9" >
-					<table class="table table-striped">
-					    <thead>
-					      <tr>
-					        <th>•	Windows em Geral / (NOVA - 30 horas, conclusão 2015).</th>
-					      </tr>
-					    </thead>
-					</table>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-2">
-				</div>
-				<div class="col-sm-9" >
-					<table class="table table-striped">
-					    <thead>
-					      <tr>
-					        <th>•	Digitação / (Udemy – Incompleto) </th>
-					      </tr>
-					    </thead>
-					</table>
-				</div>
-			</div>
-			<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-			<div class="row">
-				<div class="col-sm-2">
-					<h3>Informática</h3>
-				</div>
-				<div class="col-sm-9" >
-					<table class="table table-striped">
-					    <thead>
-					      <tr>
-					        <th>•	Windows intermediário; Internet intermediário e Hardware intermediário.
-							</th>
-					      </tr>
-					    </thead>
-					</table>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-2">
-				</div>
-				<div class="col-sm-9" >
-					<table class="table table-striped">
-					    <thead>
-					      <tr>
-					        <th>•	Cursando: Excel intermediário – SENAI.</th>
-					      </tr>
-					    </thead>
-					</table>
-				</div>
-			</div>
-			<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-	</div>
-
+			<div class="alert alert-danger alert-dismissible fade in">
+			    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			    <strong>NÃO ESQUEÇA!!</strong> De compartilhar esse site maravilhoso com os AMIGOS<H2><span class="glyphicon glyphicon-thumbs-up"></span></H2>
+  			</div>
+		</main>
+	</center>
+	<section id="sobre">
+		<div class="container">
+    				<img src="img/Capturar5.jpg" width="200" height="200" />
+		</div>	
+				<h3>Olá Meu nome é Jefferson Soares e sou Apenas um estudande querendo provar o seu valor!!!</h3>
+  	</section>
 </body>
 </html>
